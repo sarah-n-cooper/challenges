@@ -1,44 +1,49 @@
-.page-header {
-  display: flex;
-  justify-content: center;
-  text-align: left;
-
+* {
+  box-sizing: border-box;
 }
 
-.header-text {}
+.container{
+max-width: 900px;
+margin: 0 auto;
+}
+
+.page-header {
+  display: flex;
+  justify-content: flex-start;
+  text-align: left;
+}
+
 .opener-flex {
   display: flex;
   text-align: justify;
   justify-content: center;
   flex-wrap: wrap;
   margin-top: 25px;
-
 }
 
 .opener {
-  max-width: 350px;
+  width: 40%;
   margin-right: 30px;
 }
 
 .img {
-  max-width: 500px;
+  max-width: 60%;
 }
 
 .body-flex {
   display: flex;
   justify-content: center;
   margin-top: 50px;
-  flex-wrap: wrap;
+  /*flex-wrap: wrap;*/
 }
 
 .ingr-flex {
-  max-width: 350px;
+  width: 40%;
   margin-right: 30px;
-  text-align: left;
 }
 
 .prep-flex {
-  max-width: 500px;
+  width: 60%;
   text-align: justify;
 }
 
