@@ -27,24 +27,97 @@
 .huge-sample {
   display: flex;
   justify-content: center;
-  align-content: center;
-  
+  text-align: center;
+}
+
+.font-descriptor{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 1.5rem;
+}
+
+.specimen-header{
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.Specimen{
+  display: flex;
+  justify-content: center;
+}
+
+.charset{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.charset-header{
+  display: flex;
+  justify-content: center;
+}
+
+.charset-regular{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+}
+
+.weight-oblique{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-style: italic;
+}
+
+.weight-bold{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: bold;
+}
+
+.weight-bold-oblique{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 3.5rem;
+  line-height: 4.5rem;
+  font-weight: bold;
+  font-style: italic;
 }
 
 h1 {
-  font-size: 6rem;
+  font-size: 8rem;
 }
 
 h2 {
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
+h4{ font-size: 1rem;
+}
+
+h5{font-size: .80rem}
 body {
   font-family: "Courier";
   background-color: rgb(1, 41, 15);
   color: rgb(250, 203, 209);
+  font-size: 1.2rem;
 }
-
+img{
+  max-width: 900px;
+  margin-top: 30px;
+}
 ul {
   list-style-type: none;
 }
