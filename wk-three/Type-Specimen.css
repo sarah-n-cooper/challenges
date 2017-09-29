@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.subheader {
+  display: flex;
+  justify-content: center;
+}
+
+.actual-header {
+  display: flex;
+  justify-content: center;
+}
+
+.huge-sample {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+h1 {
+  font-size: 6rem;
+}
+
+h2 {
+  font-size: 3rem;
+}
+
+body {
+  font-family: "Courier";
+  background-color: rgb(1, 41, 15);
+  color: rgb(250, 203, 209);
+}
+
+ul {
+  list-style-type: none;
+}
