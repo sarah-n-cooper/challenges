@@ -1,3 +1,46 @@
+*{
+box-sizing: border-box;
+}
+
 body{
   font-family: "Vollkorn", serif;
+}
+
+.running-header {
+display: flex;
+justify-content: center;
+}
+
+.logo-img {
+max-width: 150px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.header-img {
+  width: 100%;
+}
+
+.article-content{
+  display: flex;
+  justify-content: center;
+}
+
+.content{
+  max-width: 80%;
+
+}
+/*.body-paragraph{
+  display: flex;
+  justify-content: center;
+}*/
+
+.img{
+  display: flex;
+  max-width: 75%;
+  justify-content: center;
+
 }
