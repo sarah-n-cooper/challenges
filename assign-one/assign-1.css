@@ -13,20 +13,29 @@ p{font-size: 1.03rem;
   line-height: 1.5rem;
 }
 
+figure{
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+a{
+  color: rgb(246, 168, 159);
+}
+
 .running-header {
 display: flex;
 justify-content: center;
 }
 
 .logo-img {
-max-width: 100px;
+max-width: 130px;
 }
 
 .header {
   display: flex;
   justify-content: center;
   width: 100%;
-  margin: 0px
 }
 .header-img {
   width: 100vw;
@@ -35,11 +44,12 @@ max-width: 100px;
 .article-content{
   display: flex;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 2%;
+  margin: 1%;
 }
 
 .content{
-  max-width: 95%;
+  max-width: 700px;
 
 }
 /*.body-paragraph{
@@ -53,6 +63,7 @@ max-width: 100px;
   justify-content: center;
 }
 
-@media min-width 600px {
+@media (min-width 600px) {
+
 
 }
