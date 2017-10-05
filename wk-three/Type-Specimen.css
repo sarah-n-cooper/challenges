@@ -35,6 +35,7 @@
   text-align: center;
   justify-content: center;
   font-size: 1.5rem;
+  color: white;
 }
 
 .specimen-header{
@@ -45,6 +46,7 @@
 
 .Specimen{
   display: flex;
+  max-width: 100%
   justify-content: center;
 }
 
@@ -58,6 +60,7 @@
 .charset-header{
   display: flex;
   justify-content: center;
+  color: white;
 }
 
 .charset-regular{
@@ -102,12 +105,18 @@ h1 {
 
 h2 {
   font-size: 2rem;
+  color: white;
+  font-weight: bold;
 }
 
 h4{ font-size: 1rem;
+  color: white;
 }
 
-h5{font-size: .80rem}
+h5{font-size: .80rem
+  color: white;
+}
+
 body {
   font-family: "Courier";
   background-color: rgb(1, 41, 15);
@@ -115,8 +124,8 @@ body {
   font-size: 1.2rem;
 }
 img{
-  max-width: 900px;
   margin-top: 30px;
+  max-width: 900px;
 }
 ul {
   list-style-type: none;
