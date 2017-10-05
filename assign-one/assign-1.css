@@ -5,6 +5,13 @@ box-sizing: border-box;
 body{
   font-family: "Vollkorn", serif;
 }
+strong{
+  font-size: 1.3rem;
+}
+
+p{font-size: 1.03rem;
+  line-height: 1.5rem;
+}
 
 .running-header {
 display: flex;
@@ -12,25 +19,27 @@ justify-content: center;
 }
 
 .logo-img {
-max-width: 150px;
+max-width: 100px;
 }
 
 .header {
   display: flex;
   justify-content: center;
   width: 100%;
+  margin: 0px
 }
 .header-img {
-  width: 100%;
+  width: 100vw;
 }
 
 .article-content{
   display: flex;
   justify-content: center;
+  margin-top: 5%;
 }
 
 .content{
-  max-width: 80%;
+  max-width: 95%;
 
 }
 /*.body-paragraph{
@@ -40,7 +49,10 @@ max-width: 150px;
 
 .img{
   display: flex;
-  max-width: 75%;
+  max-width: 100%;
   justify-content: center;
+}
+
+@media min-width 600px {
 
 }
