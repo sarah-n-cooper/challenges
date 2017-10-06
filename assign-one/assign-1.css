@@ -6,7 +6,7 @@ body{
   font-family: "Vollkorn", serif;
 }
 strong{
-  font-size: 1.3rem;
+  font-size: 1.4rem;
 }
 
 p{font-size: 1.06rem;
@@ -30,6 +30,8 @@ justify-content: center;
 
 .logo-img {
 max-width: 130px;
+margin-top: 30px;
+margin-bottom: 30px;
 }
 
 .header {
