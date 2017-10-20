@@ -30,8 +30,7 @@ justify-content: center;
 
 .logo-img {
 max-width: 130px;
-margin-top: 30px;
-margin-bottom: 30px;
+margin-top: 15px;
 }
 
 .header {
@@ -64,6 +63,8 @@ margin-bottom: 30px;
   display: flex;
   max-width: 100%;
   justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 @media (min-width 600px) {
