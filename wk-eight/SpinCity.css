@@ -1,0 +1,7 @@
+.spin {
+  transition: all 1s ease-out;
+}
+
+.spin:hover{
+  transform: rotate(360deg)
+}

@@ -1,0 +1,88 @@
+/* ========================================
+ * CSS written here will override Tachyons
+ * ======================================== */
+
+ .But1 {
+   color: white;
+   font-family: sans-serif;
+   font-size: 1rem;
+   background-color: violet;
+   border-width: 3px;
+   border-style: solid;
+   border-color: black;
+   padding: .4rem;
+   margin: 1rem;
+ }
+
+ .But1:hover {
+   color: black;
+   font-family: sans-serif;
+   font-size: 1rem;
+   background-color: white;
+   border-width: 3px;
+   border-style: solid;
+   border-color: black;
+   padding: .4rem;
+   margin: 1rem;
+
+ }
+
+.But1 {
+  transition: all, 1s, linear, 800ms;
+}
+
+.But2 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: violet;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: .4rem;
+  margin: 1rem;
+}
+
+.But2:hover {
+  color: magenta;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: Orange;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: .4rem;
+  margin: 1rem;
+}
+
+.But2 {
+  transition: all, 1s, linear, 800ms;
+}
+
+.But3 {
+  color: white;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: violet;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: .4rem;
+  margin: 1rem;
+}
+
+.But3:hover {
+  color: orange;
+  font-family: sans-serif;
+  font-size: 1rem;
+  background-color: #05ffb0;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  padding: .4rem;
+  margin: 1rem;
+}
+
+.But3 {
+  transition: all, 1s, linear, 800ms;
+}
